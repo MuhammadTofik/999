@@ -1,0 +1,178 @@
+{
+ "Account": {
+     "Username": "XTeMixX19000",
+     "Password": "BlackTemix101120",
+     "2FA": "Off"
+ },
+ "Cut Lose": "0",
+ "Client Seed": {
+     "Toggle": "On",
+     "If Random Chance": "OFF",
+     "If Base Bet": "0.1",
+     "If Lose Streak": "0"
+  },
+ "Currency": "doge",
+ "Target Profit": {
+      "Target Profit": "5",
+      "Relogin If Target Profit": {
+          "Toggle": "On",
+          "Interval": "5"
+      }
+ },
+ "Target Lose": "0", 
+ "Target Balance": "8000",
+ "Auto Change Betset": {
+     "Reset to Base Bet": "ON",
+     "If Profit": "0.01",
+     "If Lose Streak": "0",
+     "If Win Streak": "0",
+     "Interval": "0"
+ },
+ "Config": [{
+     "Name Bet Set": "0| XTeMixX",
+     "Base Bet": "0.01",
+     "Max Bet": "0",
+     "Chance": "40",
+     "Random Chance": {
+          "Toggle": "On",
+          "Min": "40",
+          "Max": "40.15",
+          "If Base Bet": "0.00000001",
+          "Reset Chance": "1"
+     },
+     "Bet": {
+          "Bet": "Low",
+          "Hi / Low": {
+              "Toggle": "ON",
+              "If Lose Streak": "0",
+              "If Win Streak": "0",
+              "If Bets":"2",
+              "Random":"OFF"
+          }
+     },
+     "If Win": "1",
+     "If Lose": "1.68",
+     "Repeat Jump If Lose": "ON",
+     "Jump If Lose": [{
+          "Name": "Jump 1",
+          "Toggle": "ON",
+          "If Lose": "1.62",
+          "Number Of Bets": "1"
+          },{
+          "Name": "Jump 2",
+          "Toggle": "ON",
+          "If Lose": "1.65",
+          "Number Of Bets": "2"
+          },{
+          "Name": "Jump 3",
+          "Toggle": "On",
+          "If Lose": "1.68",
+          "Number Of Bets": "3"
+          }
+     ],
+     "Reset If Win Streak": "1",
+     "Reset If Lose Streak":"0",
+     "Reset If Profit": "0.00000001",
+     "Interval": "10"
+     },{
+     "Name Bet Set": "1| XTeMixX",
+     "Base Bet": "0.01",
+     "Max Bet": "0",
+     "Chance": "35",
+     "Random Chance": {
+          "Toggle": "off",
+          "Min": "45.05",
+          "Max": "45.35",
+          "If Base Bet": "0.00000001",
+          "Reset Chance": "1"
+     },
+     "Bet": {
+          "Bet": "Low",
+          "Hi / Low": {
+              "Toggle": "ON",
+              "If Lose Streak": "0",
+              "If Win Streak": "0",
+              "If Bets":"0",
+              "Random":"On"
+          }
+     },
+     "If Win": "1",
+     "If Lose": "1.58",
+     "Repeat Jump If Lose": "On",
+     "Jump If Lose": [{
+          "Name": "Jump 1",
+          "Toggle": "ON",
+          "If Lose": "1.62",
+          "Number Of Bets": "1"
+          },{
+          "Name": "Jump 2",
+          "Toggle": "ON",
+          "If Lose": "1.6",
+          "Number Of Bets": "2"
+          },{
+          "Name": "Jump 3",
+          "Toggle": "On",
+          "If Lose": "1.58",
+          "Number Of Bets": "3"
+          }
+     ],
+     "Reset If Win Streak": "1",
+     "Reset If Lose Streak":"0",
+     "Reset If Profit": "0.00000001",
+     "Interval": "10"
+     },{
+     "Name Bet Set": "2| XTeMixX",
+     "Base Bet": "0.01",
+     "Max Bet": "0",
+     "Chance": "48",
+     "Random Chance": {
+          "Toggle": "off",
+          "Min": "45.05",
+          "Max": "45.35",
+          "If Base Bet": "0.00000001",
+          "Reset Chance": "1"
+     },
+     "Bet": {
+          "Bet": "Low",
+          "Hi / Low": {
+              "Toggle": "ON",
+              "If Lose Streak": "0",
+              "If Win Streak": "0",
+              "If Bets":"2",
+              "Random":"OFF"
+          }
+     },
+     "If Win": "1",
+     "If Lose": "2",
+     "Repeat Jump If Lose": "On",
+     "Jump If Lose": [{
+          "Name": "Jump 1",
+          "Toggle": "ON",
+          "If Lose": "2.4",
+          "Number Of Bets": "1"
+          },{
+          "Name": "Jump 2",
+          "Toggle": "On",
+          "If Lose": "2.2",
+          "Number Of Bets": "2"
+          },{
+          "Name": "Jump 3",
+          "Toggle": "On",
+          "If Lose": "2",
+          "Number Of Bets": "3"
+          }
+     ],
+     "Reset If Win Streak": "1",
+     "Reset If Lose Streak":"0",
+     "Reset If Profit": "0.00000001",
+     "Interval": "10"
+     }
+  ],
+  "Auto Wd": {
+       "Toggle": "Off",
+       "If Balance": "2005",
+       "Wallet Address": "DAPUfc13yGnzV22nBKdngxrreraExNTNkh",
+       "Amount": "1001"
+      },
+  "User-Agent": "Android Phone / Chrome 85 [Computer]: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36"
+}
